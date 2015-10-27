@@ -17,5 +17,20 @@
   "devDependencies": {
     "chai": "~3.4.0",
     "mocha": "~2.3.3"
-  }
+  },
+  "homepage": "https://github.com/pcreglow/parallax-playground",
+  "authors": [
+    "Phillip Creglow <phillipcreglow@msn.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "CC0-1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
