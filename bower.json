@@ -1,0 +1,37 @@
+{
+  "name": "parallax-playground",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.4.0",
+    "mocha": "~2.3.3"
+  },
+  "homepage": "https://github.com/pcreglow/parallax-playground",
+  "authors": [
+    "Phillip Creglow <phillipcreglow@msn.com>"
+  ],
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "CC0-1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
