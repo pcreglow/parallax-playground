@@ -6,6 +6,7 @@
 .mo-header {
   background-color: #ffb717;
   height: 100px;
+  max-width: 1020px;
 
   img {
     float: left;
@@ -27,8 +28,10 @@
 }
 
 #joint-finances {
-  background-image: url("/images/joint-finances.jpg");
+  background: url("/images/joint-finances.jpg");
   background-size: cover;
-  height: 100%;
+  max-width: 1020px;
   width: 100%;
+  max-height: 680px;
+  height: 100%;
 }
