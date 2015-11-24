@@ -5,19 +5,17 @@
 
 .mo-header {
   background-color: #ffb717;
-  height: 200px;
+  height: 100px;
 
   img {
-    width: 50%;
     float: left;
     height: 90%;
-    padding: 1em;
+    padding: 0.5em;
   }
 
   li {
     float: left;
     display: inline-block;
-    text-align: center;
     padding-right: 15px;
   }
 
@@ -29,7 +27,8 @@
 }
 
 #joint-finances {
-  background: url("/images/joint-finances.jpg");
+  background-image: url("/images/joint-finances.jpg");
   background-size: cover;
   height: 100%;
+  width: 100%;
 }
