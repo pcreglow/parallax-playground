@@ -2,7 +2,34 @@
   margin: 0;
   padding: 0;
 }
+
 .mo-header {
-  background-color: #f2b945;
+  background-color: #ffb717;
   height: 200px;
+
+  img {
+    width: 50%;
+    float: left;
+    height: 90%;
+    padding: 1em;
+  }
+
+  li {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding-right: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+  }
+}
+
+#joint-finances {
+  background: url("/images/joint-finances.jpg");
+  background-size: cover;
+  height: 100%;
 }
