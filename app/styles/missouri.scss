@@ -7,11 +7,12 @@
   background-color: #ffb717;
   height: auto;
   max-width: 1020px;
-  padding: 1em 0;
+
 
   .logo {
     width: 40%;
     float: left;
+    margin: 1.25em 0;
   }
 
   img {
@@ -24,7 +25,7 @@
     float: right;
     text-align: center;
     height: auto;
-    margin: 2em 0;
+    margin-top: 5%;
   }
 
   .nav li {
