@@ -5,17 +5,31 @@
 
 .mo-header {
   background-color: #ffb717;
-  height: 100px;
+  height: auto;
   max-width: 1020px;
 
+  .logo {
+    width: 40%;
+  }
+
   img {
-    float: left;
-    height: 90%;
+    height: auto;
+    width: 100%;
     padding-top: 0.5em;
+    float: left;
+  }
+
+  .nav {
+    width: 60%;
+  }
+
+  ul {
+    float: right;
+    text-align: center;
+    width: 100%;
   }
 
   li {
-    float: left;
     display: inline-block;
     padding-right: 15px;
   }
@@ -23,7 +37,6 @@
   a {
     text-decoration: none;
     color: white;
-    margin: 0 auto;
   }
 }
 
@@ -35,6 +48,10 @@
     max-width: 1020px;
     position: absolute;
   }
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 // #joint-finances {
