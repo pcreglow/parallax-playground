@@ -7,36 +7,36 @@
   background-color: #ffb717;
   height: auto;
   max-width: 1020px;
+  padding: 1em 0;
 
   .logo {
     width: 40%;
+    float: left;
   }
 
   img {
     height: auto;
     width: 100%;
-    padding-top: 0.5em;
-    float: left;
   }
 
   .nav {
     width: 60%;
-  }
-
-  ul {
     float: right;
     text-align: center;
-    width: 100%;
+    height: auto;
+    margin: 2em 0;
   }
 
-  li {
+  .nav li {
     display: inline-block;
-    padding-right: 15px;
+		margin-left: 15px;
+
   }
 
-  a {
+  .nav a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
   }
 }
 
@@ -50,16 +50,8 @@
   }
 }
 
-.clearfix {
-  overflow: auto;
-}
-
-// #joint-finances {
-//   background: url("/images/joint-finances.jpg");
-//   background-repeat: no-repeat;
-//   background-size: contain;
-//   background-position: top center;
-//   max-width: 1020px;
-//   max-height: 680px;
-//   height: 680px;
-// }
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
