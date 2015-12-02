@@ -1,6 +1,6 @@
 console.log('\'Allo \'Allo!');
 
-( function( $ ) {
+$(function() {
 
 	function enableSkrollr(){
 		console.log('we are on desktop');
@@ -31,4 +31,4 @@ console.log('\'Allo \'Allo!');
 	    }
 	});
 
-} )( jQuery );
+});
