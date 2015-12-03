@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mo-header {
+  background-color: #ffb717;
+  height: auto;
+  max-width: 1020px;
+
+
+  .logo {
+    width: 40%;
+    float: left;
+    margin: 1.25em 0;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+
+  .nav {
+    width: 60%;
+    float: right;
+    text-align: center;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  .nav li {
+    display: inline-block;
+		margin-left: 15px;
+
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+#joint-finances {
+
+  .family {
+    width: 100%;
+    height: auto;
+    max-width: 1020px;
+    position: absolute;
+  }
+
+  .sign-up-box {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    background: #fff;
+    opacity: 0.75;
+    padding: 1em;
+    top: 20em;
+    color: #0a2f87;
+
+    h3 {
+      padding: 0.5em;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 18px;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    .form-group {
+      display: inline;
+      padding: 0.5em 1.5em;
+      text-align: center;
+      opacity: 1;
+    }
+
+    input {
+      background: #0a2f87;
+      color: white;
+    }
+  }
+}
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
