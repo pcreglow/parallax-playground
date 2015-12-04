@@ -1,3 +1,5 @@
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -53,11 +55,11 @@
   .sign-up-box {
     position: relative;
     width: 50%;
-    height: 20%;
+    height: 30%;
     background: #fff;
     opacity: 0.75;
     padding: 1em;
-    top: 20em;
+    top: 22em;
     color: #0a2f87;
 
     h3 {
@@ -74,9 +76,15 @@
 
     .form-group {
       display: inline;
-      padding: 0.5em 1.5em;
+      padding: 0.5em 0.5em;
       text-align: center;
       opacity: 1;
+    }
+
+    .btn {
+      opacity: 1;
+      color: white;
+      background-color: #0a2f87;
     }
 
     input {
