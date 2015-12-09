@@ -30,26 +30,27 @@
   .nav a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 10px 5px;
   }
-  .nav-mobile {
-    width: 100%;
-    float: left;
-    text-align: center;
-    height: auto;
-    margin-top: 5%;
-    background-color: white;
-  }
-  .nav-mobile li {
-    display: inline-block;
-    margin-left: 15px;
-    padding: 1em;
-  }
-  .nav-mobile a {
-    text-decoration: none;
-    color: #0a2f87;
-    font-size: 20px;
-  }
+  // .nav-mobile {
+  //   width: 100%;
+  //   float: left;
+  //   text-align: center;
+  //   margin-top: 5%;
+  //   margin-bottom: 0;
+  //   background-color: white;
+  // }
+  // .nav-mobile li {
+  //   display: inline-block;
+  //   margin-left: 15px;
+  //   padding: 1em;
+  // }
+  // .nav-mobile a {
+  //   text-decoration: none;
+  //   color: #0a2f87;
+  //   font-size: 20px;
+  // }
 }
 #joint-finances {
   .family {
@@ -99,12 +100,28 @@
   display: table;
   clear: both;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 468px) and (max-width: 768px) {
   .mo-header {
     .logo {
       width: 100%;
       float: left;
-      margin: 1em 0;
+    }
+    .nav {
+      width: 100%;
+      float: right;
+      text-align: center;
+      margin-top: 0;
+      padding-bottom: 1em;
+      background-color: #ffb717;
+    }
+    .nav li {
+      display: inline-block;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #white;
+      font-size: 16px;
+      padding: 10px 5px;
     }
   }
 }
