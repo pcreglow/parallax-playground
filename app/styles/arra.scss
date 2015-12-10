@@ -29,7 +29,6 @@
 
 .nav li {
     display: inline-block;
-    margin-left: 10px;
   }
 
 .nav a {
@@ -46,59 +45,30 @@
   clear: both;
  }
 
- @media screen and (max-width: 860px) {
+ @media screen and (max-width: 920px) {
 
      .logo {
        width: 100%;
-       float: left;
      }
 
      .nav {
        width: 100%;
        float: left;
-       text-align: center;
-       margin-top: 0;
-       padding-bottom: 1em;
-     }
-
-     .nav li {
-       display: inline-block;
-     }
-
-     .nav a {
-       text-decoration: none;
-       color: white;
-       font-size: 18px;
-       font-weight: bold;
-       padding: 10px 5px;
      }
  }
 
- @media screen and (max-width: 565px) {
+ @media screen and (max-width: 655px) {
 
      .logo {
        width: 100%;
-       float: left;
      }
 
      .nav {
        width: 100%;
        float: left;
-       text-align: center;
-       margin-top: 0;
-       padding-bottom: 1em;
      }
 
      .nav li {
        display: block;
-       margin-left: 0;
-     }
-
-     .nav a {
-       text-decoration: none;
-       color: white;
-       font-size: 18px;
-       font-weight: bold;
-       padding: 10px 5px;
      }
  }
