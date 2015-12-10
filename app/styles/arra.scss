@@ -1,17 +1,14 @@
 @import "main";
-* {
-  margin: 0;
-  padding: 0;
-}
+
 .arra-header {
-  background-color: #ffb717;
+  background-color: #203e19;
   width: 100%;
   height: auto;
-  max-width: 1020px;
+  max-width: 1600px;
 }
 
 .logo {
-    width: 40%;
+    width: 25%;
     float: left;
     margin: 1.25em 0;
   }
@@ -22,22 +19,23 @@
   }
 
 .nav {
-    width: 60%;
+    width: 70%;
     float: right;
     text-align: center;
     height: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 
 .nav li {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 
 .nav a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding: 10px 5px;
   }
@@ -46,4 +44,61 @@
   content: " ";
   display: table;
   clear: both;
+ }
+
+ @media screen and (max-width: 860px) {
+
+     .logo {
+       width: 100%;
+       float: left;
+     }
+
+     .nav {
+       width: 100%;
+       float: left;
+       text-align: center;
+       margin-top: 0;
+       padding-bottom: 1em;
+     }
+
+     .nav li {
+       display: inline-block;
+     }
+
+     .nav a {
+       text-decoration: none;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding: 10px 5px;
+     }
+ }
+
+ @media screen and (max-width: 565px) {
+
+     .logo {
+       width: 100%;
+       float: left;
+     }
+
+     .nav {
+       width: 100%;
+       float: left;
+       text-align: center;
+       margin-top: 0;
+       padding-bottom: 1em;
+     }
+
+     .nav li {
+       display: block;
+       margin-left: 0;
+     }
+
+     .nav a {
+       text-decoration: none;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding: 10px 5px;
+     }
  }
