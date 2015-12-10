@@ -48,7 +48,7 @@
   clear: both;
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
 
     .logo {
       width: 100%;
@@ -71,11 +71,42 @@
     .nav a {
       text-decoration: none;
       color: white;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: bold;
       padding: 10px 5px;
     }
 }
+
+@media screen and (max-width: 565px) {
+
+    .logo {
+      width: 100%;
+      float: left;
+    }
+
+    .nav {
+      width: 100%;
+      float: left;
+      text-align: center;
+      margin-top: 0;
+      padding-bottom: 1em;
+      background-color: #ffb717;
+    }
+
+    .nav li {
+      display: block;
+      margin-left: 0;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 5px;
+    }
+}
+
 #joint-finances {
   .family {
     width: 100%;
