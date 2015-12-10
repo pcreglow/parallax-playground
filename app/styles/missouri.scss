@@ -5,52 +5,76 @@
 }
 .mo-header {
   background-color: #ffb717;
+  width: 100%;
   height: auto;
   max-width: 1020px;
-  .logo {
+}
+
+.logo {
     width: 40%;
     float: left;
     margin: 1.25em 0;
   }
-  img {
+
+.logo img {
     height: auto;
     width: 100%;
   }
-  .nav {
+
+.nav {
     width: 60%;
     float: right;
     text-align: center;
     height: auto;
     margin-top: 5%;
   }
-  .nav li {
+
+.nav li {
     display: inline-block;
     margin-left: 15px;
   }
-  .nav a {
+
+.nav a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     padding: 10px 5px;
   }
-  // .nav-mobile {
-  //   width: 100%;
-  //   float: left;
-  //   text-align: center;
-  //   margin-top: 5%;
-  //   margin-bottom: 0;
-  //   background-color: white;
-  // }
-  // .nav-mobile li {
-  //   display: inline-block;
-  //   margin-left: 15px;
-  //   padding: 1em;
-  // }
-  // .nav-mobile a {
-  //   text-decoration: none;
-  //   color: #0a2f87;
-  //   font-size: 20px;
-  // }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+ }
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+      width: 100%;
+      float: left;
+    }
+
+    .nav {
+      width: 100%;
+      float: left;
+      text-align: center;
+      margin-top: 0;
+      padding-bottom: 1em;
+      background-color: #ffb717;
+    }
+
+    .nav li {
+      display: inline-block;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 5px;
+    }
 }
 #joint-finances {
   .family {
@@ -92,36 +116,6 @@
     input {
       background: #0a2f87;
       color: white;
-    }
-  }
-}
-.clearfix::after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-@media screen and (min-width: 468px) and (max-width: 768px) {
-  .mo-header {
-    .logo {
-      width: 100%;
-      float: left;
-    }
-    .nav {
-      width: 100%;
-      float: right;
-      text-align: center;
-      margin-top: 0;
-      padding-bottom: 1em;
-      background-color: #ffb717;
-    }
-    .nav li {
-      display: inline-block;
-    }
-    .nav a {
-      text-decoration: none;
-      color: #white;
-      font-size: 16px;
-      padding: 10px 5px;
     }
   }
 }
