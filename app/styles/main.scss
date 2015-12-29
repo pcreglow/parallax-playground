@@ -4,7 +4,12 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 @import "custom";
-@import "missouri";
+// @import "missouri";
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .browserupgrade {
   margin: 0.2em 0;
