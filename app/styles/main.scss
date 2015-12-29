@@ -6,6 +6,11 @@ $icon-font-path: '../fonts/';
 @import "custom";
 // @import "missouri";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
